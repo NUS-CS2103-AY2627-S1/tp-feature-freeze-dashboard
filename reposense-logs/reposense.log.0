@@ -1,15 +1,15 @@
-Oct 29, 2026 9:10:24 AM reposense.system.LogsManager addFileHandler
+Oct 29, 2026 1:58:02 PM reposense.system.LogsManager addFileHandler
 INFO: Log temp folder has been successfully created
-Oct 29, 2026 9:10:24 AM reposense.parser.ReportConfigYamlParser parse
+Oct 29, 2026 1:58:02 PM reposense.parser.ReportConfigYamlParser parse
 INFO: Parsing report-config.yaml file...
-Oct 29, 2026 9:10:25 AM reposense.parser.ArgsParser addReportConfigToBuilder
+Oct 29, 2026 1:58:02 PM reposense.parser.ArgsParser addReportConfigToBuilder
 WARNING: Error parsing report-config.yaml: ./config/report-config.yaml (No such file or directory)
 ./config/report-config.yaml Ignoring the report config provided.
-Oct 29, 2026 9:10:25 AM reposense.parser.BlurbMarkdownParser parse
+Oct 29, 2026 1:58:02 PM reposense.parser.BlurbMarkdownParser parse
 INFO: Parsing blurbs...
-Oct 29, 2026 9:10:25 AM reposense.parser.BlurbMarkdownParser parse
+Oct 29, 2026 1:58:02 PM reposense.parser.BlurbMarkdownParser parse
 INFO: Blurbs parsed successfully!
-Oct 29, 2026 9:10:25 AM reposense.RepoSense main
+Oct 29, 2026 1:58:02 PM reposense.RepoSense main
 WARNING: "Since Date" must not be later than today's date.
 reposense.parser.exceptions.ParseException: "Since Date" must not be later than today's date.
 	at reposense.parser.ArgsParser.addAnalysisDatesToBuilder(ArgsParser.java:573)
